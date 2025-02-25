@@ -1,0 +1,72 @@
+[
+  {
+    "model": "backend.genre",
+    "pk": 1,
+    "fields": {
+      "name": "Western"
+    }
+  },
+  {
+    "model": "backend.genre",
+    "pk": 2,
+    "fields": {
+      "name": "Rock"
+    }
+  },
+  {
+    "model": "backend.genre",
+    "pk": 3,
+    "fields": {
+      "name": "Jazz"
+    }
+  },
+  {
+    "model": "backend.genre",
+    "pk": 4,
+    "fields": {
+      "name": "Blues"
+    }
+  },
+  {
+    "model": "backend.genre",
+    "pk": 5,
+    "fields": {
+      "name": "Classical"
+    }
+  },
+  {
+    "model": "backend.genre",
+    "pk": 6,
+    "fields": {
+      "name": "Pop"
+    }
+  },
+  {
+    "model": "backend.genre",
+    "pk": 7,
+    "fields": {
+      "name": "Hip Hop"
+    }
+  },
+  {
+    "model": "backend.genre",
+    "pk": 8,
+    "fields": {
+      "name": "Electronic"
+    }
+  },
+  {
+    "model": "backend.genre",
+    "pk": 9,
+    "fields": {
+      "name": "Reggae"
+    }
+  },
+  {
+    "model": "backend.genre",
+    "pk": 10,
+    "fields": {
+      "name": "Country"
+    }
+  }
+]
