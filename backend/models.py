@@ -30,3 +30,17 @@ class Song(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Playlist(models.Model):
+    name = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name
+
+class PlaylistSong(models.Model):
+    song = models.ForeignKey(Song, on_delete=models.SET_NULL, null=True, blank=True)
+    playlist = models.ForeignKey(Playlist, on_delete=models.SET_NULL, null=True, blank=True)
+
+    def __str__(self):
+        return self.playlist.name
